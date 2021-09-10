@@ -1,8 +1,7 @@
-cd C:\Users\%USERNAME%\Downloads\Windows10Debloater-master\Windows10Debloater-master
-Powershell.exe -File script-dl.ps1
-Powershell.exe -executionpolicy unrestricted -File Windows10Debloater.ps1
-Powershell.exe -executionpolicy default
+cd C:\Users\%USERNAME%\Downloads\
+Powershell.exe -executionpolicy bypass -File script-dl.ps1
+Powershell.exe -File Windows10Debloater.ps1
 del script-dl.ps1
 del Windows10Debloater.ps1
 del README.md
-@REM del debloater.bat
+del debloater.bat
